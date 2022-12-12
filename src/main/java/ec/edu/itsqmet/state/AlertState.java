@@ -15,7 +15,7 @@ public class AlertState {
 	}
 	
 	public void alert() {
-		currentState.alert(this);
+		currentState.alert();
 	}
 
 }
