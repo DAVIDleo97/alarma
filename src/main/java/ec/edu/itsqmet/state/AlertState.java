@@ -4,7 +4,7 @@ public class AlertState {
 	//atributo
 	private MobileAlertState currentState;
 	
-	//constructor para inicializar
+	
 	public AlertState() {
 		currentState = new Vibration();
 	}
@@ -14,7 +14,7 @@ public class AlertState {
 		currentState = state;
 	}
 	
-	public void alerts() {
+	public void alert() {
 		currentState.alert();
 	}
 
