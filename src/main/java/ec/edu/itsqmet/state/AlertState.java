@@ -14,7 +14,7 @@ public class AlertState {
 		currentState = state;
 	}
 	
-	public void alert() {
+	public void alerts() {
 		currentState.alert();
 	}
 
